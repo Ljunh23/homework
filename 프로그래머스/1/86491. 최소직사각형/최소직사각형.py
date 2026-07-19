@@ -1,6 +1,5 @@
 def solution(sizes):
     answer = 0
-    l = len(sizes)
     max_w = 0
     max_h = 0
     for num in sizes:
