@@ -1,5 +1,4 @@
 def solution(num):
-    answer = 0
     cnt = 0
     while cnt < 500:
         if num == 1:
@@ -11,9 +10,5 @@ def solution(num):
             num = (num * 3) + 1
             cnt += 1
     if cnt == 500:
-        answer = -1
-    elif cnt == 0 and num == 1:
-        answer = 0
-    else:
-        answer = cnt
-    return answer
+        cnt = -1
+    return cnt
